@@ -1,0 +1,6 @@
+azure-cognitiveservices-vision-computervision
+Django
+djangorestframework
+django-cors-headers
+opencv-python
+requests
