@@ -4,3 +4,4 @@ djangorestframework
 django-cors-headers
 opencv-python
 requests
+gunicorn
