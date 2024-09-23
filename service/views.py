@@ -38,8 +38,8 @@ class ServiceDNIAPIView(APIView):
     def post(self, request, *args, **kwargs):
         image_file  = request.FILES.get("image_path")
         
-        image_path = os.path.join(settings.MEDIA_ROOT, image_file.name)
-        path = default_storage.save(image_path, ContentFile(image_file.read()))
+        path = default_storage.save(image_file.name, ContentFile(image_file.read()))
+        image_path = default_storage.path(path)
                 
         preprocessed_image_path = preprocess_image(path)
         
