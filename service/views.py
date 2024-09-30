@@ -1,6 +1,6 @@
 subscription_key = "89afb264c19c4512af32ff8f7edfa936"
 endpoint = "https://spotter.cognitiveservices.azure.com/"
-token = 'd0a4db0d1c34a1ee699cf4ba44c393b216c49db294bcaa33d91eec84cbedc94b'
+token = 'eb23fca6c4c5394281ed167606e9977bd49732b89362769451aa9cc0ba32791b'
 
 import cv2
 from azure.cognitiveservices.vision.computervision import ComputerVisionClient
